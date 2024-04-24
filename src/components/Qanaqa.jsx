@@ -1,13 +1,13 @@
-import React, { useRef, useState } from "react";
+import React, {  useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import "../style/knopka.css";
 import right_img from "../image/dark_rig.png";
-// Import Swiper styles
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-// import required modules
+
 import { Navigation, Pagination } from "swiper/modules";
 import arrow from "../image/variety pack placeholder.png";
 import star from "../image/#.png";
