@@ -1,0 +1,50 @@
+.forbes {
+  background: #fffbf6;
+  margin-bottom: 57px;
+  padding-bottom: 47px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.for__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  gap: 160px;
+}
+
+.forbes .swiper-pagination-bullet-active {
+  background: #fe8c01;
+}
+
+.card__content img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px auto 24px;
+}
+
+.card__content img:nth-of-type(2) {
+  margin-top: 24px;
+  margin-bottom: 43px;
+}
+
+.card__content p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23.8px;
+  text-align: center;
+  width: 320px;
+  height: 72px;
+}
+
+.for__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 40px;
+}

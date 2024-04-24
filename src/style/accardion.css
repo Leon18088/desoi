@@ -1,0 +1,27 @@
+.accardion button {
+  width: 396px;
+  height: 32px;
+  transition: 1s;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+}
+
+.accardion p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: left;
+  width: 380px;
+  transition: 500ms;
+}
+
+.accardion button:hover{
+    background-color: aqua;
+}
+
+.accardion button:active{
+    transition: 500ms;
+}

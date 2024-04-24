@@ -1,0 +1,60 @@
+.fruit {
+  background: #fffbf6;
+  padding: 80px 0 80px;
+  margin-bottom: 40px;
+}
+
+.fruit h2 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.fruit p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23.8px;
+  text-align: center;
+  width: 719px;
+  height: 72px;
+  margin: 0 auto;
+}
+
+.fruit span {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #bb6b1e;
+  border-bottom: 1px solid #bb6b1e;
+  width: 202px;
+  height: 17px;
+  margin: 16px auto 45px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fruit__wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.fruit__card img {
+  margin: 16px 74px;
+}
+
+.fruit__card h4 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.63px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+}

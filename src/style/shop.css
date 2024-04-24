@@ -1,0 +1,132 @@
+.shop__hop {
+  border: 1px solid #cbcbcb;
+  padding: 8px 40px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  max-width: 1480px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20;
+  margin-bottom: 4px;
+}
+
+
+
+.shop h2 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.shop__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid #cbcbcb;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop__card {
+  width: 480px;
+  height: 600px;
+}
+
+.shop__card:nth-of-type(2) {
+  border-right: 1px solid #cbcbcb;
+  border-left: 1px solid #cbcbcb;
+}
+.shop__card h3 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 167px;
+}
+
+.shop__card h5 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23.8px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.shop__content {
+  border-top: 1px solid #cbcbcb;
+  padding: 16px 0 15px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.shop__content span {
+  display: inline;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.39px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  font-family: "Manrope", sans-serif;
+  margin-right: 5px;
+}
+
+.shop__content p {
+  font-family: "Manrope", sans-serif;
+  width: 400px;
+  height: 73px;
+  display: inline;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #000000d9;
+}
+
+.shop__card img:nth-of-type(1) {
+  margin: 43px 51px 8px 51px;
+}
+
+.shop__card h4 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+
+.shop__card img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 9px;
+}
+
+.shop__card p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.shop__card button {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}

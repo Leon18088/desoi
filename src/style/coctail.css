@@ -1,0 +1,24 @@
+.coctail h2 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  width: 602px;
+  height: 64px;
+  margin: 0 auto 49px;
+}
+
+.coctail__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coctail__cards {
+  width: 370px;
+  height: 360px;
+}
+
+.coctail__cards img {
+  width: 100%;
+}

@@ -1,0 +1,59 @@
+.hero {
+  max-width: 1480px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero__wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 69px;
+}
+
+.hero__card img {
+  width: 100%;
+}
+
+.hero__card2 {
+  position: relative;
+  background: #fffbf6;
+  padding: 191px 175px;
+}
+
+.hero__content {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero__content h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.hero__content h2 {
+  font-size: 79px;
+  font-weight: 700;
+  line-height: 84px;
+  text-align: center;
+  width: 521px;
+  height: 168px;
+  margin-bottom: 46px;
+}
+
+.hero__content p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  border-bottom: 1px solid black;
+  width: 93px;
+  margin: 0 auto;
+}

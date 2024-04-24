@@ -1,0 +1,163 @@
+.myBag {
+  max-width: 1000px;
+  padding: 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.myBag h2 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 80.64px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 72px;
+}
+
+.myBag .product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.myBag .product h4 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.product ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 196px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  text-transform: uppercase;
+  color: black;
+}
+
+.bag__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #cbcbcb;
+  margin-top: 17px;
+}
+
+.bag__card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.bag__card img {
+  width: 120px;
+  height: 143px;
+}
+
+.bag__card h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 23.8px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.bag__card p {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.bag__card span {
+  font-family: "Manrope", sans-serif;
+  border-bottom: 1px solid #cbcbcb;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: left;
+}
+.bag__card a {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: left;
+  color: #000;
+}
+
+.bag__card2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 106px;
+}
+
+.bag__card2 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.bag__card2 span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: left;
+  color: #000000;
+}
+.bag__card2 h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: left;
+  color: #000000;
+  margin-right: 60px;
+}
+
+.bag__card2 p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: right;
+  color: #9c9a9a;
+  width: 47px;
+  border-bottom: 1px solid #9c9a9a;
+  height: 13px;
+  margin-top: -10px;
+}
+
+.bag__plus {
+  width: 100px;
+  height: 32px;
+  border: 1px solid #000000;
+}
+
+.bag__plus span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: center;
+}
+
+.bag__plus button {
+  width: 16px;
+  height: 16px;
+  border: none;
+  background-color: transparent;
+  margin: 22px;
+  cursor: pointer;
+}

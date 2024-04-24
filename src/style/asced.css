@@ -1,0 +1,20 @@
+.asked {
+  background-color: black;
+  padding: 80px 0;
+}
+
+.asked__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.asked__wrapper h2 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 78.4px;
+  text-align: left;
+  width: 335px;
+  height: 234px;
+  color: #eae5dd;
+}

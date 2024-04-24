@@ -1,0 +1,118 @@
+.also h2 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  margin-bottom: 62px;
+  margin-top: 40px;
+}
+
+.also__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  border-top: 1px solid #cbcbcb;
+  border-bottom: 1px solid #cbcbcb;
+  justify-content: center;
+  margin-bottom: 101px;
+}
+
+.also__card {
+  width: 480px;
+  height: 600px;
+}
+
+.also__card:nth-of-type(2) {
+  border-right: 1px solid #cbcbcb;
+  border-left: 1px solid #cbcbcb;
+}
+.also__card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26.88px;
+  text-align: center;
+}
+
+.also__card h5 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23.8px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.also__content {
+  border-top: 1px solid #cbcbcb;
+  padding: 16px 0 15px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.also__content span {
+  display: inline;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.39px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  font-family: "Manrope", sans-serif;
+  margin-right: 5px;
+}
+
+.also__content p {
+  font-family: "Manrope", sans-serif;
+  width: 400px;
+  height: 73px;
+  display: inline;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #000000d9;
+}
+
+.also__card img:nth-of-type(1) {
+  margin: 43px 51px 8px 51px;
+}
+
+.also__card h4 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+
+.also__card img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 9px;
+}
+
+.also__card p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.also__card button {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}

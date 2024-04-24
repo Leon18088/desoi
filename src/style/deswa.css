@@ -1,0 +1,38 @@
+.deswa {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.deswa h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-top: 118px;
+  margin-bottom: 35px;
+  color: #ffffff;
+}
+
+.deswa h2 {
+  width: 720px;
+  height: 282px;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 80px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin: 0 auto;
+}
+
+.deswa p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-bottom: 123px;
+  color: #ffffff;
+}

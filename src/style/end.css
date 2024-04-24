@@ -1,0 +1,67 @@
+.end {
+  max-width: 1000px;
+  padding: 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.end h4 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.end__card {
+  width: 440px;
+  height: 179px;
+  margin-bottom: 85px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.end__card img {
+  width: 120px;
+  height: 143px;
+}
+
+.end__content2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 150px;
+}
+
+.end__content2 h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 23.8px;
+  text-align: left;
+  width: 99px;
+  text-transform: lowercase;
+  margin-bottom: 8px;
+}
+
+.end__content2 p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: right;
+}
+
+.end__content2 span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: left;
+}
+
+.end input {
+  width: 304px;
+  height: 48px;
+  border: 1px solid #000000;
+  margin-top: 8px;
+}

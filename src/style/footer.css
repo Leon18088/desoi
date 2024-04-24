@@ -1,0 +1,133 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding-bottom: 24px;
+  padding-top: 80px;
+}
+
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.footer__nav h4 {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 39.01px;
+  text-align: left;
+  margin-bottom: 7px;
+  color: #ffffff;
+}
+
+.footer__nav p {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: left;
+  color: #7d7d7d;
+  margin-bottom: 16px;
+}
+
+.footer__nav form {
+  width: 480px;
+  height: 60px;
+  border: 1px solid #7d7d7d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.footer__nav form input {
+  margin-left: 24px;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  width: 70%;
+  height: 24px;
+}
+
+.footer__nav form button {
+  margin-right: 24px;
+  background-color: transparent;
+  border: none;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+}
+
+.footer__nav2 nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 116px;
+}
+
+.nav__list:nth-of-type(2) {
+  margin-right: -7px;
+}
+
+.nav__list li {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  color: #7d7d7d;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.nav__list li:nth-of-type(1) {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.links h4 {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.63px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.links__item {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23.8px;
+  text-align: left;
+  color: #7d7d7d;
+}
+
+.links__item li:nth-of-type(1) {
+  margin-right: 23px;
+}
+.links__item li:nth-of-type(2) {
+  margin-right: 14px;
+}
+.links__item li:nth-of-type(3) {
+  margin-right: 17px;
+}

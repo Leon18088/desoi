@@ -1,0 +1,1476 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Philosopher", sans-serif;
+}
+
+.container {
+  max-width: 1401px;
+  width: 100%;
+  padding: 0 39px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+@media (max-width: 1300px) {
+  .enim__wrapper {
+    gap: 30px;
+  }
+  .enim__wrapper img {
+    width: 50%;
+  }
+  .enim__wrapper p {
+    width: 470px !important;
+    height: 90px;
+  }
+  .rich__wrapper p {
+    width: 470px !important;
+    height: 90px;
+  }
+  .rich__wrapper {
+    gap: 40px;
+  }
+  .rich__wrapper img {
+    width: 50%;
+  }
+  .fruit__card img {
+    margin: 13px 55px !important;
+  }
+  .for__wrapper {
+    gap: 120px !important;
+  }
+  .header {
+    max-width: 1237px !important;
+    width: 100%;
+  }
+
+  .hero__card2 {
+    padding: 100px 119px !important;
+  }
+  .seller__card img {
+    width: 220px !important;
+    height: 300px !important;
+    margin-bottom: -8px !important;
+  }
+  .seller__card p {
+    width: 221px !important;
+    height: 48px !important;
+    margin: 0 auto 25px !important;
+  }
+  .card__content p {
+    width: 254px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero__card2 {
+    padding: 72px 100px !important;
+  }
+  .seller__card img {
+    width: 200px !important;
+    height: 280px !important;
+  }
+  .seller__card p {
+    width: 190px !important;
+  }
+  .seller__card h4 {
+    font-size: 26px;
+  }
+  .fruit__card img {
+    margin: 11px 49px !important;
+  }
+  .coctail__cards {
+    width: 370px !important;
+    height: 299px !important;
+  }
+  .shop__card img:nth-of-type(1) {
+    margin: 38px 14px 8px 0px !important;
+  }
+  .shop__card {
+    width: 380px !important;
+    height: 590px !important;
+  }
+  .shop__card2 {
+    width: 380px !important;
+    height: 599px !important;
+  }
+  .shop__card2 {
+    width: 380px !important;
+    height: 599px !important;
+  }
+  .shopTwo__card {
+    width: 380px !important;
+    height: 599px !important;
+  }
+  .shopNext__card {
+    width: 380px !important;
+    height: 599px !important;
+  }
+  .shopEnd__card {
+    width: 380px !important;
+    height: 599px !important;
+  }
+  .shopNext__card img:nth-of-type(1) {
+    margin: 38px 0 8px 0px !important;
+  }
+  .shopEnd__content2 h5 {
+    margin-left: -45px !important;
+  }
+  .shopNext__card2 {
+    width: 380px !important;
+    height: 599px !important;
+    margin-left: -20px !important;
+  }
+  .shopEnd__card2 {
+    width: 380px !important;
+    height: 599px !important;
+  }
+  .shop__content {
+    width: 310px !important;
+  }
+  .shopTwo__content {
+    width: 310px !important;
+  }
+  .shopNext__content {
+    width: 310px !important;
+  }
+  .shopEnd__content {
+    width: 310px !important;
+  }
+  .shopTwo__card img:nth-of-type(1) {
+    margin: 23px 42px 8px 37px !important;
+  }
+  .shopNext__content2 {
+    gap: 80px;
+  }
+  .shopNext__card h3 {
+    font-size: 45px;
+  }
+  .shopEnd__card img:nth-of-type(1) {
+    margin: 43px 45px 8px 0 !important;
+  }
+  .shopEnd__content2 {
+    gap: 20px !important;
+  }
+  .ben__card {
+    width: 330px !important;
+    height: 350px !important;
+  }
+  .ben__card p {
+    width: 320px !important;
+  }
+  .enjoy__card2 {
+    width: 100% !important;
+    height: 80% !important;
+  }
+  .enjoy__card2 img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .enjoy__wrapper p {
+    width: 500px !important;
+  }
+  .enjoy__wrapper h2 {
+    margin-bottom: 55px !important;
+  }
+  .pack__wrapper img {
+    width: 50% !important;
+  }
+  .pack__wrapper p {
+    font-size: 12px !important  ;
+    width: 400px !important;
+    height: 86px !important;
+  }
+  .NewAccardion button {
+    width: 630px !important;
+  }
+  .asked__wrapper h2 {
+    font-size: 66px !important;
+    width: 241px !important;
+  }
+  .also__card {
+    width: 350px;
+    height: 600px;
+  }
+  .also__card img:nth-of-type(1) {
+    margin: 26px 0px 8px 0px !important;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  .product ul {
+    gap: 160px !important;
+  }
+  .bag__card2 {
+    gap: 84px !important;
+  }
+  .gift__text {
+    width: 370px !important;
+  }
+  .gift__card {
+    width: 45% !important;
+  }
+  .gift__card2 button {
+    width: 100% !important;
+  }
+  .divo {
+    width: 100% !important;
+  }
+  .bag__card2 {
+    gap: 45px !important;
+  }
+  .product ul {
+    gap: 122px !important;
+  }
+  .gift__chiziq {
+    width: 100% !important;
+  }
+  .gift__wrapper {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+  .gift__text {
+    width: 100% !important;
+  }
+  .gift__card button {
+    width: 100% !important;
+  }
+  .gift__card2 {
+    width: 55%px;
+    margin-top: -45px;
+  }
+  .fruit__card img {
+    margin: 8px 42px !important;
+  }
+  .enim__wrapper p {
+    width: 400px !important;
+  }
+  .rich__wrapper p {
+    width: 400px !important;
+  }
+  .rich__wrapper h2 {
+    font-size: 55px !important;
+  }
+  .enim__wrapper h2 {
+    font-size: 55px !important;
+  }
+  .shopNext__card h3 {
+    font-size: 45px !important;
+  }
+  .shop.shopNext__content {
+    width: 310px !important;
+  }
+  .shopEnd__card {
+    width: 363px !important;
+    height: 599px !important;
+  }
+  .shopEnd__card img:nth-of-type(1) {
+    margin: 43px 50px 8px -17px !important;
+  }
+  .shopEnd__content2 h5 {
+    margin-left: -65px !important;
+  }
+  .shopEnd__card2 {
+    width: 363px !important;
+    height: 599px !important;
+  }
+  .shop__card {
+    width: 363px !important;
+    height: 599px !important;
+  }
+  .shop__card2 {
+    width: 363px !important;
+    height: 599px !important;
+  }
+  .shopTwo__card {
+    width: 364px !important;
+    height: 599px !important;
+  }
+  .shopNext__card {
+    width: 364px !important;
+    height: 599px !important;
+  }
+  .shop__card .new {
+    margin-left: 258px !important;
+    margin-top: 44px !important;
+    margin-bottom: -112px !important;
+  }
+  .shopNext__card2 {
+    width: 364px !important;
+    height: 599px !important;
+  }
+  .shopNext__card {
+    width: 372px !important;
+    height: 599px !important;
+  }
+  .ben__card {
+    width: 270px !important;
+    height: 350px !important;
+  }
+  .ben__card p {
+    font-size: 12px !important;
+    line-height: 23.8px !important;
+    width: 252px !important;
+  }
+  .also__card {
+    width: 300px !important;
+    height: 536px !important;
+  }
+  .NewAccardion button {
+    width: 500px !important;
+  }
+  .asked__wrapper h2 {
+    font-size: 59px !important;
+    width: 232px !important;
+  }
+  .benefit h5 {
+    font-size: 12px !important;
+    width: 600px !important;
+    margin: 0 auto 39px;
+  }
+  .oddiy__card {
+    width: 30% !important;
+    height: 30% !important;
+  }
+  .oddiy__card2 {
+    width: 30% !important;
+    height: 30% !important;
+  }
+  .aylana__item2 button {
+    width: 100% !important;
+  }
+
+  .oddiy__card h2 {
+    font-size: 41px !important;
+  }
+  .oddiy .swiper-button-prev {
+    left: 20px !important;
+  }
+  .oddiy .swiper-button-next {
+    left: 310px !important;
+  }
+  .accardion button {
+    width: 290px !important;
+  }
+  .accardion p {
+    width: 266px !important;
+  }
+  .collins__cards {
+    width: 50% !important;
+    height: 600px !important;
+  }
+  .collins__cards2 {
+    width: 209px !important;
+    height: 600px;
+  }
+  .collins__cards2 h3 {
+    font-size: 45px !important;
+    line-height: 38.4px !important;
+    margin-top: 110px !important;
+  }
+  .collins__cards img {
+    width: 80% !important;
+    top: 0;
+    margin: 70px 27px 52px 207px !important;
+  }
+  .enjoy__wrapper h2 {
+    font-size: 60px !important;
+    line-height: 25.4px !important;
+  }
+  .enjoy__wrapper p {
+    width: 350px !important;
+    font-size: 12px !important;
+    line-height: 16.8px !important;
+  }
+  .pack__wrapper h2 {
+    font-size: 50px !important;
+    width: 327px !important;
+  }
+
+  .pack__wrapper p {
+    font-size: 11px !important;
+    width: 325px !important;
+    height: 80px !important;
+    line-height: 17.8px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hero__content h2 {
+    font-size: 65px !important;
+    width: 400px !important;
+  }
+  .hero__card2 img {
+    width: 100% !important;
+  }
+  .hero__card2 {
+    padding: 128px 100px !important;
+  }
+  .seller__card img {
+    width: 170px !important;
+    height: 240px !important;
+  }
+  .seller__card h4 {
+    font-size: 26px !important;
+  }
+  .for__wrapper {
+    gap: 43px !important;
+  }
+
+  .enim__wrapper p {
+    width: 335px !important;
+    font-size: 13px !important;
+    line-height: 20.8px !important;
+    height: 90px !important;
+  }
+  .enim__wrapper h2 {
+    font-size: 60px !important;
+    width: 325px !important;
+  }
+  .rich__wrapper p {
+    width: 335px !important;
+    font-size: 13px !important;
+    line-height: 20.8px !important;
+    height: 90px !important;
+  }
+  .rich__wrapper h2 {
+    font-size: 60px !important;
+    width: 390px !important;
+  }
+  .rich__wrapper {
+    gap: 45px !important;
+  }
+  .enim__wrapper {
+    gap: 45px !important;
+  }
+  .fruit__card img {
+    margin: 6px 29px !important;
+  }
+  .footer__nav2 nav {
+    gap: 36px !important;
+  }
+  .footer__nav form {
+    width: 350px !important;
+  }
+  .shop__card {
+    width: 300px !important;
+    height: 550px !important;
+  }
+  .shop__card img:nth-of-type(1) {
+    margin: 11px 14px 8px -44px !important;
+  }
+  .shopTwo__card {
+    width: 300px !important;
+    height: 550px !important;
+  }
+  .shop__card2 {
+    width: 300px !important;
+    height: 550px !important;
+  }
+  .shopNext__card {
+    width: 300px !important;
+    height: 550px !important;
+  }
+  .shopNext__card2 {
+    width: 300px !important;
+    height: 550px !important;
+    margin-left: -30px !important;
+  }
+  .shopEnd__card {
+    width: 300px !important;
+    height: 550px !important;
+  }
+  .shopEnd__card2 {
+    width: 300px !important;
+    height: 550px !important;
+  }
+  .shopNext__card img:nth-of-type(1) {
+    margin: 11px 0 -7px -43px !important;
+  }
+  .shopNext__content2 {
+    gap: 80px !important;
+  }
+  .shopNext__content2 h5 {
+    margin-left: -50px;
+  }
+  .shop__card .new {
+    margin-left: 195px !important;
+    margin-top: 44px !important;
+    margin-bottom: -110px !important;
+  }
+  .shopEnd__card img:nth-of-type(1) {
+    margin: 43px 50px 8px -39px !important;
+  }
+  .shopEnd__content2 h5 {
+    margin-left: -82px !important;
+  }
+  .shopEnd__content2 {
+    gap: 36px !important;
+    margin-left: 60px !important;
+  }
+  .shopEnd__content {
+    width: 246px !important;
+  }
+  .shopNext__content {
+    width: 246px !important;
+  }
+  .shopTwo__content {
+    width: 246px !important;
+  }
+  .shop__content {
+    width: 246px !important;
+  }
+  .shopEnd__content {
+    padding: 10px 0 15px !important;
+  }
+  .shopTwo__content {
+    padding: 10px 0 15px !important;
+  }
+  .shopEnd__card p {
+    font-size: 12px !important;
+    line-height: 10.8px !important;
+  }
+  .shop__card p {
+    font-size: 12px !important;
+    line-height: 10.8px !important;
+  }
+  .shopNext__card p {
+    font-size: 12px !important;
+    line-height: 10.8px !important;
+  }
+  .shopTwo__card p {
+    font-size: 12px !important;
+    line-height: 10.8px !important;
+  }
+  .shopEnd__card h3 {
+    font-size: 45px !important;
+    margin-top: 60px !important;
+  }
+  .shopNext__card h3 {
+    font-size: 40px !important;
+    margin-top: 60px !important;
+  }
+  .shopTwo__card h3 {
+    font-size: 40px !important;
+    margin-top: 60px !important;
+  }
+  .shop__card h3 {
+    font-size: 40px !important;
+    margin-top: 60px !important;
+  }
+  .shopTwo__card img:nth-of-type(1) {
+    margin: 23px 22px 8px 20px !important;
+  }
+  .shopNext__card2 h2 {
+    font-size: 63px !important;
+    line-height: 80.6px !important;
+    width: 205px !important;
+    height: 195px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .oddiy__card h4 {
+    font-size: 11px !important;
+    line-height: 9.63px !important;
+  }
+  .oddiy__card h2 {
+    font-size: 36px !important;
+    line-height: 52.04px !important;
+    width: 268px !important;
+  }
+  .oddiy__card h6 {
+    font-size: 12px !important;
+    line-height: 20.06px !important;
+    width: 230px !important;
+  }
+  .oddiy__card2 h2 {
+    font-size: 28px !important;
+    line-height: 18.01px !important;
+  }
+  .card__item222 p {
+    font-size: 13px !important;
+    line-height: 17.8px !important;
+  }
+  .item__links123 {
+    gap: 35px !important;
+  }
+  .item__links123 li:nth-of-type(1) {
+    width: 28px !important;
+    padding: 5px !important;
+  }
+  .oddiy .swiper-button-next {
+    left: 270px !important;
+  }
+  .ben__card {
+    width: 210px !important;
+    height: 342px !important;
+  }
+  .ben__card p {
+    font-size: 12px !important;
+    line-height: 17.8px !important;
+    width: 221px !important;
+  }
+  .collins__cards3 img {
+    width: 100%;
+    height: 100%;
+  }
+  .collins__cards {
+    width: 30% !important;
+    height: 600px !important;
+  }
+  .collins__cards img {
+    width: 300px !important;
+    margin: 80px 29px 53px 96px !important;
+  }
+  .collins__cards2 h3 {
+    font-size: 33px !important;
+    line-height: 57.4px !important;
+    margin-top: 110px !important;
+  }
+  .collins__cards2 p {
+    font-size: 12px !important;
+    line-height: 21.8px !important;
+  }
+  .NewAccardion button {
+    width: 400px !important;
+  }
+  .asked__wrapper h2 {
+    font-size: 44px !important;
+    width: 195px !important;
+    line-height: 55px !important;
+  }
+
+  .seller__card img {
+    width: 139px !important;
+    height: 197px !important;
+  }
+  .seller__card p {
+    width: 166px !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    line-height: 19.8px !important;
+  }
+  .seller__card h4 {
+    font-size: 28px !important;
+  }
+  .card__content p {
+    width: 177px !important;
+    font-size: 13px !important;
+    line-height: 18.8px !important;
+    height: 95px !important;
+  }
+  .fruit p {
+    font-size: 14px !important;
+    line-height: 21.8px !important;
+    width: 600px !important;
+  }
+  .rich__wrapper h2 {
+    font-size: 55px !important;
+    width: 360px !important;
+  }
+  .rich__wrapper p {
+    width: 303px !important;
+    font-size: 12px !important;
+    line-height: 20.8px !important;
+    height: 90px !important;
+  }
+  .enim__wrapper h2 {
+    font-size: 55px !important;
+    width: 360px !important;
+  }
+  .enim__wrapper p {
+    width: 303px !important;
+    font-size: 12px !important;
+    line-height: 20.8px !important;
+    height: 90px !important;
+  }
+  .hero__card2 {
+    padding: 107px 100px !important;
+  }
+  .hero__content h2 {
+    font-size: 57px !important;
+    width: 348px !important;
+  }
+  .hero__content h4 {
+    font-size: 13px !important;
+    line-height: 16.07px !important;
+    margin-bottom: 0px !important;
+  }
+  .deswa h2 {
+    width: 600px !important;
+    height: 202px !important;
+    font-size: 60px !important;
+    line-height: 60px !important;
+  }
+  .header__nav {
+    gap: 5px !important;
+  }
+  .header__nav select {
+    font-size: 12px !important;
+    margin-right: 0 !important;
+  }
+  .header__nav h4 {
+    font-size: 12px !important;
+    margin-bottom: -4px !important;
+  }
+  .header__nav2 select {
+    margin-right: 0 !important;
+    font-size: 12px !important;
+  }
+  .header__nav2 h4 {
+    font-size: 12px;
+  }
+  .logo {
+    margin-left: 0 !important;
+    width: 90%;
+  }
+  .fruit__card img {
+    margin: 4px 22px !important;
+  }
+  .coctail__cards {
+    width: 206px !important;
+    height: 206px !important;
+  }
+  .refer h2 {
+    font-size: 78px !important;
+    width: 483px !important;
+    height: 29px !important;
+    margin-bottom: 51px !important;
+  }
+  .coctail h2 {
+    font-size: 75px !important;
+    line-height: 50px !important;
+    width: 580px !important;
+    height: 64px !important;
+  }
+  .footer__nav form {
+    width: 269px !important;
+  }
+
+  .shop h2 {
+    font-size: 60px !important;
+    margin-bottom: 18px !important;
+  }
+  .shop__card img:nth-of-type(1) {
+    margin: 10px 0 !important;
+    width: 100% !important;
+  }
+  .shopNext__card img:nth-of-type(1) {
+    margin: 10px 0 !important;
+    width: 100% !important;
+  }
+  .shopEnd__card img:nth-of-type(1) {
+    margin: 10px 0 !important;
+    width: 100% !important;
+  }
+  .shop__card {
+    width: 250px !important;
+    height: 410px !important;
+  }
+  .shopTwo__card {
+    width: 250px !important;
+    height: 410px !important;
+  }
+  .shopNext__card {
+    width: 250px !important;
+    height: 410px !important;
+  }
+  .shopNext__card2 {
+    width: 250px !important;
+    height: 410px !important;
+  }
+  .shopEnd__card {
+    width: 250px !important;
+    height: 410px !important;
+  }
+  .shopEnd__card2 {
+    width: 250px !important;
+    height: 410px !important;
+  }
+  .shop__card2 {
+    width: 250px !important;
+    height: 410px !important;
+  }
+  .shop__card2 h2 {
+    font-size: 44px !important;
+    line-height: 42.6px !important;
+    width: 225px !important;
+    height: 154px !important;
+  }
+  .shopEnd__card h3 {
+    font-size: 40px !important;
+    line-height: 42.6px !important;
+    width: 225px !important;
+    height: 40px !important;
+  }
+  .shop__card h3 {
+    font-size: 32px !important;
+    margin-top: 8px !important;
+  }
+  .shopTwo__card h3 {
+    font-size: 32px !important;
+    margin-top: -15px !important;
+  }
+  .shopNext__card h3 {
+    font-size: 32px !important;
+    margin-top: -15px !important;
+  }
+  .shopEnd__card h3 {
+    font-size: 32px !important;
+    margin-top: -5px !important;
+  }
+  .shop__content {
+    width: 225px !important;
+  }
+  .shopTwo__content {
+    width: 225px !important;
+  }
+  .shopNext__content {
+    width: 225px !important;
+  }
+  .shopEnd__content {
+    width: 225px !important;
+  }
+  .shop__card p {
+    font-size: 10px !important;
+    line-height: 8.8px !important;
+  }
+  .shopTwo__card p {
+    font-size: 10px !important;
+    line-height: 8.8px !important;
+  }
+  .shopEnd__card p {
+    font-size: 10px !important;
+    line-height: 8.8px !important;
+  }
+  .shopNext__card p {
+    font-size: 10px !important;
+    line-height: 8.8px !important;
+  }
+  .shop__content span {
+    font-size: 10px !important;
+    line-height: 0.39px !important;
+    letter-spacing: 0.1em;
+  }
+  .shopNext__content span {
+    font-size: 10px !important;
+    line-height: 0.39px !important;
+    letter-spacing: 0.1em;
+  }
+  .shopNext__content2 h5 {
+    margin-left: 8px;
+    font-size: 12px !important;
+  }
+  .shopNext__content2 {
+    gap: 19px !important;
+  }
+  .shopTwo__content span {
+    font-size: 10px !important;
+    line-height: 0.39px !important;
+    letter-spacing: 0.1em;
+  }
+  .shopEnd__content span {
+    font-size: 10px !important;
+    line-height: 0.39px !important;
+    letter-spacing: 0.1em;
+  }
+  .shop__card .new {
+    margin-left: 167px !important;
+    margin-top: 24px !important;
+    margin-bottom: -74px !important;
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .shopNext__card2 h2 {
+    font-size: 49px !important;
+    line-height: 52.6px !important;
+    width: 129px !important;
+    height: 150px !important;
+  }
+  .shopTwo__card img:nth-of-type(1) {
+    margin: 10px 17px 8px 15px !important;
+  }
+  .shopEnd__content2 {
+    gap: 17px !important;
+    margin-left: 0px !important;
+  }
+  .shopEnd__content2 h5 {
+    margin-left: 10px !important;
+    font-size: 10px;
+  }
+  .shopEnd__card2 h2 {
+    font-size: 50px !important;
+    line-height: 49.6px !important;
+    width: 200px !important;
+    height: 140px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .header .header__content {
+    display: none;
+  }
+  .header .header__content2 {
+    display: none;
+  }
+  .hero__card2 {
+    padding: 98px 100px !important;
+  }
+  .hero__content h2 {
+    font-size: 52px !important;
+    width: 319px !important;
+  }
+  .rich__wrapper {
+    gap: 5px !important;
+  }
+  .enim__wrapper {
+    gap: 5px !important;
+  }
+  .rich__wrapper h2 {
+    font-size: 45px !important;
+    width: 300px !important;
+  }
+  .rich__wrapper p {
+    width: 260px !important;
+    font-size: 12px !important;
+    line-height: 14.8px !important;
+    height: 70px !important;
+  }
+  .enim__wrapper h2 {
+    font-size: 45px !important;
+    width: 300px !important;
+  }
+  .enim__wrapper p {
+    width: 260px !important;
+    font-size: 12px !important;
+    line-height: 14.8px !important;
+    height: 70px !important;
+  }
+  .fruit__card img {
+    margin: 1px 15px !important;
+  }
+  .footer__nav2 nav {
+    gap: 16px !important;
+  }
+  .nav__list li {
+    font-size: 12px;
+    line-height: 22.8px;
+    margin-bottom: 5px;
+  }
+  .shopNext__card2 {
+    width: 250px !important;
+    height: 410px !important;
+    margin-left: 1px !important;
+  }
+  .also__card {
+    width: 230px !important;
+    height: 450px !important;
+  }
+  .oddiy__wrapper {
+    margin-top: 100px;
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+
+  .oddiy__wrapper .mySwiper {
+    order: -2 !important;
+  }
+  .oddiy__card {
+    order: -1 !important;
+    width: 70% !important;
+    margin-top: 100px !important;
+  }
+  .oddiy__card2 {
+    order: 3 !important;
+    width: 70% !important;
+    margin-top: 100px !important;
+  }
+  .oddiy .swiper-button-next {
+    left: 415px !important;
+  }
+  .oddiy .swiper-button-prev {
+    left: 60px !important;
+  }
+  .benefit__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+  .collins__cards3 img {
+    display: none;
+  }
+  .collins__cards {
+    width: 50% !important;
+    height: 600px !important;
+  }
+  .collins__cards3 span {
+    display: none !important;
+  }
+  .collins__cards {
+    width: 58% !important;
+    height: 600px !important;
+  }
+  .collins__cards img {
+    width: 340px !important;
+    margin: 94px 29px 53px 209px !important;
+  }
+  .pack__wrapper h2 {
+    font-size: 43px !important;
+    width: 280px !important;
+  }
+  .pack__wrapper p {
+    font-size: 11px !important;
+    width: 236px !important;
+    height: 80px !important;
+    line-height: 17.8px !important;
+    margin-bottom: 35px !important;
+  }
+  .NewAccardion button {
+    width: 350px !important;
+  }
+  .enjoy__wrapper p {
+    width: 250px !important;
+    font-size: 10px !important;
+    line-height: 16.8px !important;
+  }
+  .enjoy__wrapper h2 {
+    font-size: 42px !important;
+    line-height: 25.4px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .product ul {
+    gap: 43px !important;
+  }
+  .bag__wrapper {
+    justify-content: center !important;
+    gap: 100px !important;
+    flex-wrap: wrap !important;
+  }
+  .bag__card2 {
+    gap: 34px !important;
+    margin-bottom: 30px !important;
+  }
+  .enjoy__wrapper {
+    display: flex;
+    flex-wrap: wrap !important;
+    gap: 68px;
+    justify-content: center !important;
+  }
+  .collins__grid {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .enjoy__wrapper h2 {
+    font-size: 42px !important;
+    line-height: 25.4px !important;
+    text-align: center !important;
+  }
+  .pack__wrapper {
+    flex-wrap: wrap-reverse !important;
+  }
+
+  .asked__wrapper {
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+  }
+  .asked__wrapper h2 {
+    font-size: 45px !important;
+    width: 370px !important;
+    line-height: 55px !important;
+    text-align: center !important;
+  }
+
+  .also__wrapper {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+  }
+  .also__card {
+    width: 313px !important;
+    height: 542px !important;
+  }
+
+  .collins__grid {
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+  }
+  .collins__cards {
+    width: 91% !important;
+    height: 600px !important;
+  }
+  .collins__cards img {
+    width: 45% !important;
+    height: 45% !important;
+    margin: 123px 0 0 295px !important;
+  }
+  .NewAccardion p {
+    width: 375px !important;
+  }
+  .benefit h5 {
+    font-size: 12px !important;
+    width: 445px !important;
+    margin: 0 auto 39px !important;
+  }
+
+  .seller__grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    margin-bottom: 80px !important;
+  }
+  .seller__card img {
+    width: 70% !important;
+    height: 70% !important;
+    margin-left: 31px !important;
+    margin-top: 50px !important;
+  }
+  .seller__card {
+    margin-top: 30px !important;
+  }
+
+  .fruit__wrapper {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+  .fruit__card img {
+    width: 50%;
+    margin-left: 50px !important;
+  }
+  .fruit__card h4 {
+    margin: 15px;
+    margin-bottom: 60px;
+  }
+  .coctail__wrapper {
+    display: inline-grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: none;
+  }
+  .coctail__cards {
+    width: 262px !important;
+    height: 262px !important;
+    margin-right: 80px !important;
+  }
+  .coctail__cards:nth-of-type(2) {
+    width: 262px !important;
+    height: 262px !important;
+    margin-left: -80px !important;
+  }
+  .coctail__cards:nth-of-type(3) {
+    width: 262px !important;
+    height: 262px !important;
+    margin-left: 80px !important;
+  }
+  .coctail__cards:nth-of-type(4) {
+    width: 262px !important;
+    height: 262px !important;
+    margin-left: -80px !important;
+  }
+  .coctail__cards:nth-of-type(1) {
+    width: 262px !important;
+    height: 262px !important;
+    margin-left: 80px !important;
+  }
+  .footer__wrapper {
+    display: inline-block !important;
+    margin: 0 30px 80px 120px !important;
+  }
+  .footer__nav2 {
+    margin-top: 53px;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto !important;
+  }
+  .hero__wrapper {
+    display: block !important;
+    margin-bottom: 69px;
+  }
+  .hero__card img {
+    width: 100% !important;
+    height: 650px !important;
+  }
+  .hero__card2 img {
+    width: 100% !important;
+    height: 500px !important;
+  }
+  .hero__content h2 {
+    font-size: 61px !important;
+    width: 387px !important;
+  }
+  .for__wrapper {
+    gap: 14px !important;
+  }
+  .card__content p {
+    width: 164px !important;
+    font-size: 12px !important;
+    line-height: 18.8px !important;
+    height: 95px !important;
+  }
+  .fruit p {
+    font-size: 13px !important;
+    line-height: 18.8px !important;
+    width: 500px !important;
+  }
+  .card__content p {
+    width: 404px !important;
+    font-size: 13px !important;
+    line-height: 22.8px !important;
+  }
+  .deswa h2 {
+    width: 449px !important;
+    height: 202px !important;
+    font-size: 50px !important;
+    line-height: 46px !important;
+  }
+  .rich__wrapper h2 {
+    font-size: 40px !important;
+    width: 260px !important;
+  }
+  .rich__wrapper p {
+    width: 246px !important;
+    font-size: 11px !important;
+  }
+  .enim__wrapper h2 {
+    font-size: 40px !important;
+    width: 260px !important;
+  }
+  .enim__wrapper p {
+    width: 246px !important;
+    font-size: 11px !important;
+  }
+  .shop__wrapper {
+    display: block !important;
+    align-items: center !important;
+    justify-content: center;
+    border-top: 1px solid #cbcbcb;
+    width: 30% !important;
+    margin: 0 auto !important;
+  }
+  .shopNext__wrapper {
+    display: block !important;
+    align-items: center !important;
+    justify-content: center;
+    border-top: 1px solid #cbcbcb;
+    width: 30% !important;
+    margin: 0 auto !important;
+  }
+  .shopEnd__wrapper {
+    display: block !important;
+    align-items: center !important;
+    justify-content: center;
+    border-top: 1px solid #cbcbcb;
+    width: 30% !important;
+    margin: 0 auto !important;
+  }
+  .shopTwo__wrapper {
+    display: block !important;
+    align-items: center !important;
+    justify-content: center;
+    border-top: 1px solid #cbcbcb;
+    width: 30% !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .also h2 {
+    font-size: 42px !important;
+  }
+  .collins__cards {
+    width: 70% !important;
+    height: 400px !important;
+  }
+  .collins__cards img {
+    width: 40% !important;
+    height: 39% !important;
+    margin: 137px 0 0 222px !important;
+  }
+  .ben__card {
+    width: 227px !important;
+    height: 342px !important;
+  }
+  .benefit h5 {
+    font-size: 11px !important;
+    width: 371px !important;
+    margin: 0 auto 39px !important;
+  }
+  .coctail__wrapper {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .coctail__cards {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .rich__wrapper {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap-reverse !important;
+    gap: 106px;
+    margin-bottom: 59px;
+  }
+
+  .rich__wrapper img {
+    width: 50%;
+    margin-bottom: 100px;
+  }
+  .rich__wrapper h4 {
+    text-align: center !important;
+  }
+  .rich__wrapper h2 {
+    font-size: 41px !important;
+    width: 290px !important;
+  }
+  .rich__wrapper p {
+    width: 270px !important;
+    font-size: 11px !important;
+    text-align: center !important;
+  }
+  .rich__wrapper span {
+    text-align: center !important;
+    width: 100px !important;
+    display: block !important;
+
+    margin: 40px auto !important;
+  }
+  .enim__wrapper {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    gap: 106px;
+    margin-bottom: 59px;
+  }
+
+  .enim__wrapper img {
+    width: 50%;
+    margin-bottom: 100px;
+  }
+  .enim__wrapper h4 {
+    text-align: center !important;
+  }
+  .enim__wrapper h2 {
+    font-size: 41px !important;
+    width: 267px !important;
+    text-align: center !important;
+  }
+  .enim__wrapper p {
+    width: 270px !important;
+    font-size: 11px !important;
+    text-align: center !important;
+  }
+  .enim__wrapper span {
+    text-align: center !important;
+    width: 100px !important;
+    display: block !important;
+
+    margin: 40px auto !important;
+  }
+
+  .fruit h2 {
+    font-size: 70px !important;
+    line-height: 20px !important;
+  }
+  .fruit p {
+    font-size: 13px !important;
+    line-height: 19.8px !important;
+    width: 365px !important;
+    margin-bottom: 90px !important;
+  }
+  .fruit__wrapper {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .fruit__card img {
+    width: 50%;
+    margin-left: 64px !important;
+  }
+  .fruit span {
+    margin: 672px 162px 0 !important;
+    position: absolute;
+  }
+  .coctail h2 {
+    font-size: 55px !important;
+    width: 467px !important;
+  }
+  .coctail__cards:nth-of-type(1) {
+    width: 290px !important;
+    height: 290px !important;
+    margin-left: 0px !important;
+  }
+  .coctail__cards:nth-of-type(3) {
+    width: 290px !important;
+    height: 290px !important;
+    margin-left: 0px !important;
+  }
+  .coctail__cards:nth-of-type(2) {
+    width: 290px !important;
+    height: 290px !important;
+  }
+  .coctail__cards:nth-of-type(4) {
+    width: 290px !important;
+    height: 290px !important;
+  }
+
+  .refer h2 {
+    font-size: 66px !important;
+    width: 454px !important;
+  }
+  .footer__wrapper {
+    display: inline-block !important;
+    margin: 0 30px 80px 79px !important;
+  }
+  .footer__nav2 nav {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 116px;
+  }
+  .seller h2 {
+    font-size: 54px !important;
+    margin-bottom: 0px !important;
+  }
+  .hero__card2 img {
+    width: 70% !important;
+    height: 380px !important;
+
+    margin-top: -100px;
+    margin-left: 60px;
+  }
+  .hero__content {
+    margin-top: -50px !important;
+  }
+  .hero__content h2 {
+    font-size: 59px !important;
+    width: 387px !important;
+  }
+  .shopTwo__wrapper {
+    width: 45% !important;
+  }
+  .shop__wrapper {
+    width: 45% !important;
+  }
+  .shopNext__wrapper {
+    width: 45% !important;
+  }
+  .shopEnd__wrapper {
+    width: 45% !important;
+  }
+}

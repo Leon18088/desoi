@@ -1,0 +1,42 @@
+.enjoy {
+  background-color: black;
+  padding: 80px 0;
+  margin-bottom: 40px;
+}
+
+.enjoy__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 68px;
+}
+
+.enjoy__wrapper h2 {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 78.4px;
+  text-align: left;
+  margin-bottom: 142px;
+}
+
+.enjoy__wrapper span {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.enjoy__wrapper p {
+  margin-top: 17px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: left;
+  color: #ffffff;
+  width: 632px;
+  height: 168px;
+}

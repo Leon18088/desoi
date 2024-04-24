@@ -1,0 +1,151 @@
+.shopNext__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid #cbcbcb;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopNext__card {
+  width: 480px;
+  height: 600px;
+}
+
+.shopNext__card:nth-of-type(2) {
+  border-right: 1px solid #cbcbcb;
+  border-left: 1px solid #cbcbcb;
+}
+.shopNext__card h3 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 117px;
+}
+
+.shopNext__card h5 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23.8px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.shopNext__content {
+  border-top: 1px solid #cbcbcb;
+  padding: 16px 0 15px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.shopNext__content span {
+  display: inline;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.39px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  font-family: "Manrope", sans-serif;
+  margin-right: 5px;
+}
+
+.shopNext__content p {
+  font-family: "Manrope", sans-serif;
+  width: 400px;
+  height: 73px;
+  display: inline;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #000000d9;
+}
+
+.shopNext__card img:nth-of-type(1) {
+  margin: 43px 51px 8px 51px;
+}
+
+.shopNext__card h4 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+
+.shopNext__card img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 9px;
+}
+
+.shopNext__card p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.shopNext__card button {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.shopNext__card2 {
+  width: 500px;
+  height: 638px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 40px 328px 40px;
+  margin-left: -11px;
+}
+
+.shopNext__card2 h2 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 89.6px;
+  text-align: left;
+  width: 351px;
+  height: 270px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.shopNext__content2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopNext__content2 img {
+  width: 40.94px;
+  height: 40.94px;
+}
+
+.shopNext__content2 h5 {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-top: 8px;
+}

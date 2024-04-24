@@ -1,0 +1,44 @@
+.pack__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 106px;
+  margin-bottom: 59px;
+}
+
+.pack__wrapper h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.pack__wrapper h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 64px;
+  width: 390px;
+  height: 64px;
+  margin-bottom: 16px;
+}
+
+.pack__wrapper p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23.8px;
+  text-align: left;
+  width: 560px;
+  height: 96px;
+  margin-bottom: 22px;
+}
+
+.pack__wrapper span {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+}

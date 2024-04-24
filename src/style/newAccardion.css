@@ -1,0 +1,22 @@
+.NewAccardion button {
+  width: 720px;
+  height: 48px;
+  border: none;
+  border-top: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  letter-spacing: 0.1em;
+  text-align: start;
+}
+
+.NewAccardion p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22.1px;
+  text-align: left;
+  color: #ffffff;
+  width: 720px;
+}
