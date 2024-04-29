@@ -24,6 +24,9 @@
   border: none;
   background: #6aea50;
 }
+.header__modal{
+  display: none;
+}
 
 .show {
   transform: translateY(0px);
@@ -48,6 +51,10 @@
 @media (max-width: 800px) {
   .burger {
     display: block;
+  }
+
+  .header__modal{
+    display: flex;
   }
 
   nav {
