@@ -1473,4 +1473,7 @@ li {
   .shopEnd__wrapper {
     width: 45% !important;
   }
+  .header__modal {
+    gap: 118px !important;
+}
 }

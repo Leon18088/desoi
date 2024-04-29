@@ -20,7 +20,7 @@ function Forbes() {
     <section className="forbes">
       <div className="container">
         <Swiper
-          slidesPerView={1}
+          slidesPerView={3}
           pagination={true}
           loop={true}
           modules={[Autoplay, Pagination]}
@@ -30,7 +30,15 @@ function Forbes() {
             disableOnInteraction: false,
           }}
           breakpoints={{
+            800: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
             700: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            600: {
               slidesPerView: 1,
               spaceBetween: 20,
             },

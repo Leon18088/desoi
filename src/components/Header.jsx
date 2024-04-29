@@ -17,31 +17,37 @@ function Header() {
   }
   return (
     <section className="header">
-      <div ref={modal} className="modal">
-        <div className="modal__item">
-        <NavLink style={{color:"white"}} to="/shop">SHOP</NavLink>
-        <h4>About</h4>
-        <h4>Funn stuff</h4>
-        <h4>Find us</h4>
-        <NavLink style={{color:"white"}} to="/">
-        <img className="logo" src={coctail} alt="" />
+      <div className="header__modal__wrapper">
+        <div ref={modal} className="modal">
+          <div className="modal__item">
+            <NavLink style={{ color: "white" }} to="/shop">
+              SHOP
+            </NavLink>
+            <h4>About</h4>
+            <h4>Funn stuff</h4>
+            <h4>Find us</h4>
 
-        </NavLink>
-        <div className="nav2__item">
-          <img src={usaBG} alt="" />
-          <h4>USA</h4>
-        </div>
-        <h4>Contact</h4>
-        <h4>Log in</h4>
-        <NavLink style={{color:"white"}} to="/bag">
-          <h4>BAG</h4>
-        </NavLink>
-        <button onClick={closeModal}>x</button>
-        </div>
-      </div>
+            <div className="nav2__item">
+              <img src={usaBG} alt="" />
+              <h4>USA</h4>
+            </div>
+            <h4>Contact</h4>
+            <h4>Log in</h4>
 
-      <div className="burger" onClick={openModal}>
-        <i className="fa-solid fa-bars"></i>
+            <button onClick={closeModal}>x</button>
+          </div>
+        </div>
+        <div className="burger" onClick={openModal}>
+          <i className="fa-solid fa-bars"></i>
+        </div>
+        <div className="header__modal">
+          <NavLink style={{ color: "white" }} to="/">
+            <img className="logo" src={coctail} alt="" />
+          </NavLink>
+          <NavLink style={{ color: "white" }} to="/bag">
+            <img src={bag} alt="" />
+          </NavLink>
+        </div>
       </div>
       <div className="header__content">
         <img src={right} alt="" />

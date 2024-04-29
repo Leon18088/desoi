@@ -26,7 +26,6 @@
 }
 
 .show {
-  
   transform: translateY(0px);
   transition: 1s;
 }
@@ -43,13 +42,13 @@
   display: none;
   cursor: pointer;
   padding: 20px;
+  width: 40px;
 }
 
 @media (max-width: 800px) {
   .burger {
     display: block;
   }
-
 
   nav {
     display: none;

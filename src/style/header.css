@@ -5,7 +5,6 @@
   padding: 0 20;
 }
 
-
 .header__content {
   background-color: black;
   display: flex;
@@ -42,6 +41,17 @@
   margin-left: -35px;
 }
 
+.header__modal__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header__modal{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 150px;
+}
 .header__content2 {
   display: flex;
   align-items: center;
